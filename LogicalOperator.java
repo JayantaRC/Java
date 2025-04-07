@@ -9,7 +9,7 @@ public class LogicalOperator {
         Scanner input = new Scanner (System.in);
         
         char letter;
-        System.out.print("Enter any single character to find Vower or Consonant : ");
+        System.out.print("Enter any single character to find Vowel or Consonant : ");
         letter = input.next().charAt(0);
         
         //This Logical Operator progarm is ready to help to find the vowel or consonant with the help of Control Statement.
