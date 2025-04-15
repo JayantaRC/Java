@@ -4,7 +4,7 @@ package com.mycompany.javatutorial;
 import java.util.Scanner;
 
 
-public class LogicalOperator2 {
+public class ExampleLogical2 {
     
     public static void main (String[]args){
         
