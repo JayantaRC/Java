@@ -2,7 +2,7 @@
 package com.mycompany.javatutorial;
 
 
-public class UnaryOperator {
+public class ExampleUnary {
     
     public static void main (String [] args){
         
