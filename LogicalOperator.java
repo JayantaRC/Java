@@ -2,7 +2,7 @@
 package com.mycompany.javatutorial;
 import java.util.Scanner;
 
-public class LogicalOperator {
+public class ExampleLogical {
     
     public static void main (String[]args){
         
