@@ -22,8 +22,8 @@ public class ConditionalTernary {
         }
         else{
              // Use ternary operator to find the larger number between x and y
-            int devil = (x>y) ? x : y;
-            System.out.println("Large Number : "+devil);   // Print the larger number
+            int greaterValue = (x>y) ? x : y;
+            System.out.println("Large Number : "+greaterValue);   // Print the larger number
         }
         
     }
