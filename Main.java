@@ -12,8 +12,9 @@ public class Main {
     double Total = (firstNumber + secondNumber) * 100.00d;
         System.out.println(Total);
         
-        // Printing 8020.0 which is incorrect but to resolve this issue we will use () Precedence which is high
+        // Printing 8020.0 instaed of 10000.0 which is incorrect but to resolve this issue we will use () Precedence which is high Precedence
         
     }
     
 }
+
