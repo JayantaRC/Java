@@ -6,7 +6,7 @@ public class DebugDemo {
     
     public static int getLargestPrime (int number){
 
-if (number < 1){
+if (number < 2){
 return -1;
 }
 
@@ -32,3 +32,4 @@ public static void main (String [] args){
 }
     
 }
+
