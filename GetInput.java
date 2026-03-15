@@ -23,8 +23,8 @@ public class GetInput {
         int age = 0;
         
         do {
-            System.out.println("Enter a year of birth > "+ 
-                    (currentYear - 125) + " and < " + currentYear);
+            System.out.println("Enter a year of birth >= "+ 
+                    (currentYear - 125) + " and <= " + currentYear);
        try { 
         age = checkData(currentYear, input.nextLine());
         validDOB = age < 0 ? false : true;
