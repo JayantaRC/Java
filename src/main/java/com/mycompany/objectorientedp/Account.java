@@ -1,4 +1,3 @@
-
 package com.mycompany.objectorientedp;
 
 public class Account {
@@ -8,12 +7,22 @@ public class Account {
     private String customerName;
     private String customerEmail;
     private String customerPhone;
+    
+    public Account(String number, double balance, String customerName, String customerEmail,
+            String customerPhone) {
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        customerEmail = customerEmail;
+        customerPhone = customerPhone;
+    }
 
     public void depositFunds(double depositAmount) {
         
-        balance += depositAmount;
+        balance = balance + depositAmount;
         System.out.println("Deposit Amount of " + depositAmount + " made. New balance is Rs." + 
                 this.balance);
+
     }
     public void withdrawFunds(double withdrawalAmount) {
         
@@ -65,6 +74,5 @@ public class Account {
     public void setCustomerPhone(String customerPhone) {
         this.customerPhone = customerPhone;
     }
-    
-    
+     
 }
