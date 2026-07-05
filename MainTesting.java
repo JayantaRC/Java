@@ -48,14 +48,14 @@ public class MainTesting {
 
     public static void printInformation(String string) {
 
-        System.out.println("String " + string);
-        System.out.println("Length " + string.length());
+        System.out.println("String : " + string);
+        System.out.println("Length : " + string.length());
     }
 
     public static void printInformation(StringBuilder builder) {
-        System.out.println("StringBuilder " + builder);
-        System.out.println("Length " + builder.length());
-        System.out.println("Capacity " + builder.capacity());
+        System.out.println("StringBuilder : " + builder);
+        System.out.println("Length : " + builder.length());
+        System.out.println("Capacity : " + builder.capacity());
     }
 
 }
