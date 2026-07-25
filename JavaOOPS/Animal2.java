@@ -1,4 +1,4 @@
-package JavaOOPS;
+/*package JavaOOPS;
 
 public class Animal2 extends Animal {
 
@@ -17,4 +17,4 @@ public class Animal2 extends Animal {
         System.out.println(name + " is eating " + eat);
     }
 
-}
+}*/ Animal2 has been removed from JavaOOPS
