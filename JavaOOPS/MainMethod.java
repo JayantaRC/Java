@@ -4,14 +4,27 @@ public class MainMethod {
 
     public static void main(String[] args) {
 
-        Animal2 elephant = new Animal2("Running", "plants", 2, "Jumbo", "an elephant");
-        elephant.function();
-
-        Animal2 cat = new Animal2("Running", "fish", 2, "Suzi", "a cat");
-        cat.function();
+        Elephant elephant = new Elephant("Jumbo", 2);
         
-        Animal2 spider = new Animal2("hunting", "ant", 8, "Spiderman", "a spider");
-        spider.function();
+        elephant.details();
+        elephant.run();
+        elephant.eat();
+        
+        System.out.println();
 
-    }
+        
+        Cat cat = new Cat("Suzi", 2);
+        
+        cat.details();
+        cat.run();
+        cat.eat();
+        
+        System.out.println();
+        
+        Spider spider = new Spider("SpiderMan", 8);
+        
+        spider.details();
+        spider.run();
+        spider.eat();
+    }       
 }
